@@ -1,0 +1,8 @@
+rss_bbc_world
+rss_npr_world
+rss_middle_east_eye
+rss_times_of_israel
+rss_972_magazine
+rss_bellingcat
+rss_rest_of_world
+rss_reliefweb

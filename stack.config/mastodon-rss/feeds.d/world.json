@@ -1,0 +1,10 @@
+{"feeds":[
+{"id":"bbc-world","account":"rss_bbc_world","display_name":"BBC World","source":"BBC News","url":"https://feeds.bbci.co.uk/news/world/rss.xml"},
+{"id":"npr-world","account":"rss_npr_world","display_name":"NPR World","source":"NPR","url":"https://www.npr.org/rss/rss.php?id=1004"},
+{"id":"middle-east-eye","account":"rss_middle_east_eye","display_name":"Middle East Eye","source":"Middle East Eye","url":"https://www.middleeasteye.net/rss"},
+{"id":"times-of-israel","account":"rss_times_of_israel","display_name":"Times of Israel","source":"Times of Israel","url":"https://www.timesofisrael.com/feed/"},
+{"id":"972-magazine","account":"rss_972_magazine","display_name":"972 Magazine","source":"972 Magazine","url":"https://www.972mag.com/feed/"},
+{"id":"bellingcat","account":"rss_bellingcat","display_name":"Bellingcat","source":"Bellingcat","url":"https://www.bellingcat.com/feed/"},
+{"id":"rest-of-world","account":"rss_rest_of_world","display_name":"Rest of World","source":"Rest of World","url":"https://restofworld.org/feed/latest/"},
+{"id":"reliefweb","account":"rss_reliefweb","display_name":"ReliefWeb","source":"ReliefWeb","url":"https://reliefweb.int/updates/rss.xml"}
+]}
