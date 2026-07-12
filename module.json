@@ -1,0 +1,33 @@
+{
+  "configuration": {
+    "schema": {
+      "additionalProperties": false,
+      "properties": {},
+      "type": "object"
+    }
+  },
+  "id": "mastodon-rss-world",
+  "overlays": [
+    "stack.config/mastodon-rss/feeds.d/world.json",
+    "stack.config/mastodon/bootstrap-follows.d/rss-world.txt"
+  ],
+  "provides": [
+    {
+      "capability": "module:mastodon-rss-world",
+      "version": "1"
+    }
+  ],
+  "requires": [
+    {
+      "capability": "module:mastodon-rss-publisher",
+      "version": "1"
+    }
+  ],
+  "schemaVersion": 1,
+  "services": [],
+  "verification": {
+    "commands": [
+      "test -f stack.module.json && test -f module.json"
+    ]
+  }
+}
