@@ -3,9 +3,20 @@
   "id": "mastodon-rss-world",
   "repo": "mastodon-rss-world-stack-module",
   "lifecycle": "active",
-  "dependencies": ["mastodon-rss-publisher"],
+  "dependencies": [
+    "mastodon-rss-publisher"
+  ],
   "smoke": "unsupported",
   "smokeUnsupportedReason": "content-only RSS pack consumed by the self-hosted publisher",
-  "overlays": ["stack.config/mastodon-rss/feeds.d/world.json", "stack.config/mastodon/bootstrap-follows.d/rss-world.txt"],
-  "testAssets": []
+  "overlays": [
+    "stack.config/mastodon-rss/feeds.d/world.json",
+    "stack.config/mastodon/bootstrap-follows.d/rss-world.txt"
+  ],
+  "testAssets": [],
+  "runtimeDependencies": [
+    "mastodon-rss-publisher"
+  ],
+  "contracts": [
+    "module-contract"
+  ]
 }
